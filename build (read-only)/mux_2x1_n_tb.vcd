@@ -1,0 +1,39 @@
+$date
+	Mon Nov 14 17:34:06 2016
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module mux_2x1_n_tb $end
+$var wire 3 ! out [2:0] $end
+$var reg 3 " a [2:0] $end
+$var reg 3 # b [2:0] $end
+$var reg 1 $ sel $end
+$scope module uut $end
+$var wire 3 % a [2:0] $end
+$var wire 3 & b [2:0] $end
+$var wire 1 $ sel $end
+$var wire 3 ' out [2:0] $end
+$scope begin addbit[0] $end
+$upscope $end
+$scope begin addbit[1] $end
+$upscope $end
+$scope begin addbit[2] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100 '
+b100 &
+b11 %
+1$
+b100 #
+b11 "
+b100 !
+$end
+#1000

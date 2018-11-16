@@ -1,0 +1,84 @@
+Longest Path Summary:
+Path input pin A to output pin S delay 224.883 ps
+
+Design Summary:
+
+17. Printing statistics.
+
+=== $paramod\rca_n\n=32 ===
+
+   Number of wires:                  6
+   Number of wire bits:            131
+   Number of public wires:           6
+   Number of public wire bits:     131
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 32
+     FA                             32
+
+   Area for cell type \FA is unknown!
+
+=== FA ===
+
+   Number of wires:                 12
+   Number of wire bits:             12
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     AND2X2                          1
+     AOI21X1                         1
+     INVX1                           1
+     NAND2X1                         2
+     NAND3X1                         1
+     NOR2X1                          1
+     OAI21X1                         1
+     OR2X2                           1
+
+   Chip area for this module: 243.000000
+
+=== arrMult_nxm ===
+
+   Number of wires:                  6
+   Number of wire bits:           2144
+   Number of public wires:           6
+   Number of public wire bits:    2144
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1055
+     $paramod\rca_n\n=32            31
+     AND2X2                       1024
+
+   Area for cell type $paramod\rca_n\n=32 is unknown!
+
+   Chip area for this module: 32768.000000
+
+=== design hierarchy ===
+
+   arrMult_nxm                       1
+     $paramod\rca_n\n=32            31
+       FA                           32
+
+   Number of wires:              12096
+   Number of wire bits:          18109
+   Number of public wires:        5152
+   Number of public wire bits:   11165
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9952
+     AND2X2                       2016
+     AOI21X1                       992
+     INVX1                         992
+     NAND2X1                      1984
+     NAND3X1                       992
+     NOR2X1                        992
+     OAI21X1                       992
+     OR2X2                         992
+
+   Chip area for this module: 273824.000000
+

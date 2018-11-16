@@ -1,0 +1,24 @@
+
+18. Printing statistics.
+
+=== arrMult_nxm ===
+
+   Number of wires:               9830
+   Number of wire bits:          10017
+   Number of public wires:        2886
+   Number of public wire bits:    3073
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               9952
+     AND2X2                       2016
+     AOI21X1                       992
+     INVX1                         992
+     NAND2X1                      1984
+     NAND3X1                       992
+     NOR2X1                        992
+     OAI21X1                       992
+     OR2X2                         992
+
+   Chip area for this module: 273824.000000
+

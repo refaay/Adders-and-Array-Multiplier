@@ -1,0 +1,28 @@
+Longest Path Summary:
+Path input pin b[0] to output pin s[31] delay 6392.96 ps
+
+Design Summary:
+
+18. Printing statistics.
+
+=== rca_n ===
+
+   Number of wires:                260
+   Number of wire bits:            353
+   Number of public wires:          36
+   Number of public wire bits:     129
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                288
+     AND2X2                         32
+     AOI21X1                        32
+     INVX1                          32
+     NAND2X1                        64
+     NAND3X1                        32
+     NOR2X1                         32
+     OAI21X1                        32
+     OR2X2                          32
+
+   Chip area for this module: 7776.000000
+
